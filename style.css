@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+:root {
+  --primary-color: #007AF3;
+}
+
+body {
+  background: #F2F2F2;
+  margin: 0;
+  font-family: "Poppins";
+}
+
+#Heading {
+  text-align: center;
+  padding: 0.5em;
+  background-color: #007AF3;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+}
+
+table {
+  width: 100%;
+  margin: 40px auto;
+}
+
+table label {
+  color: #007AF3;
+}
+
+table.list {
+  text-align: center;
+  width: 100%;
+}
+
+td {
+  border: 1px solid #707070;
+  text-align: center;
+  padding: 8px 15px;
+}
+
+tr:nth-child(even),
+table.list thread > tr {
+  background-color: #007AF3;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+input[type="submit"],
+input[type="reset"] {
+  width: 100%;
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+button:hover {
+  background: #007AF3;
+}
+
+input[type="submit"],
+input[type="reset"] {
+  background: #007AF3;
+  color: white;
+  font-size: 1.2rem;
+}
+
+input[type=text],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
